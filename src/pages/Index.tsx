@@ -69,18 +69,18 @@ const Index = () => {
             Analisamos e recomendamos apenas o que realmente funciona.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTAButton 
+            <a 
               href="#produtos-destaque"
-              text="Ver Oportunidades"
-              variant="primary"
-              size="lg"
-            />
-            <CTAButton 
+              className="btn-primary inline-flex items-center justify-center px-10 py-5 text-xl"
+            >
+              Ver Oportunidades
+            </a>
+            <a 
               href="/categoria/marketing-digital"
-              text="Marketing Digital"
-              variant="accent"
-              size="lg"
-            />
+              className="btn-accent inline-flex items-center justify-center px-10 py-5 text-xl"
+            >
+              Marketing Digital
+            </a>
           </div>
         </div>
       </section>

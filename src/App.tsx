@@ -10,6 +10,8 @@ import ShortsVirais from "./pages/articles/ShortsVirais";
 import ReceitasBolos from "./pages/articles/ReceitasBolos";
 import MarketingDigital from "./pages/categories/MarketingDigital";
 import Receitas from "./pages/categories/Receitas";
+import Milhas from "./pages/categories/Milhas";
+import Negocios from "./pages/categories/Negocios";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +32,8 @@ const App = () => (
           {/* Categorias */}
           <Route path="/categoria/marketing-digital" element={<MarketingDigital />} />
           <Route path="/categoria/receitas" element={<Receitas />} />
+          <Route path="/categoria/milhas" element={<Milhas />} />
+          <Route path="/categoria/negocios" element={<Negocios />} />
           
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
