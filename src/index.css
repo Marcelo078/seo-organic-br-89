@@ -121,12 +121,14 @@
   }
 
   body {
-    @apply bg-background text-foreground font-body antialiased;
+    @apply bg-background text-foreground font-sans antialiased;
     line-height: 1.6;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-heading font-bold leading-tight;
+    @apply font-sans font-bold leading-tight;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
 
   h1 {
